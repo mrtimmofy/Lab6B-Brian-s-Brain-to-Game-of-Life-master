@@ -1,0 +1,20 @@
+#BlueJ class context
+comment0.params=
+comment0.target=Cell()
+comment0.text=\r\n\ Set\ the\ initial\ state\ to\ be\ DEAD.\r\n
+comment1.params=initialState
+comment1.target=Cell(int)
+comment1.text=\r\n\ Set\ the\ initial\ state.\r\n\ @param\ initialState\ The\ initial\ state\r\n
+comment2.params=
+comment2.target=int\ getNextState()
+comment2.text=\r\n\ Determine\ this\ cell's\ next\ state,\ based\ on\ the\r\n\ state\ of\ its\ neighbors.\r\n\ This\ is\ an\ implementation\ of\ the\ rules\ for\ Conway's\ game\ of\ life.\r\n\ @return\ The\ next\ state.\r\n
+comment3.params=neighborList
+comment3.target=void\ setNeighbors(java.util.ArrayList)
+comment3.text=\r\n\ Receive\ the\ list\ of\ neighboring\ cells\ and\ take\r\n\ a\ copy.\r\n\ @param\ neighborList\ Neighboring\ cells.\r\n
+comment4.params=
+comment4.target=int\ getState()
+comment4.text=\r\n\ Get\ the\ state\ of\ this\ cell.\r\n\ @return\ The\ state.\r\n
+comment5.params=state
+comment5.target=void\ setState(int)
+comment5.text=\r\n\ Set\ the\ state\ of\ this\ cell.\r\n\ @param\ The\ state.\r\n
+numComments=6
